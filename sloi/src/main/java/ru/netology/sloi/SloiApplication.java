@@ -1,24 +1,18 @@
 package ru.netology.sloi;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.transaction.annotation.Transactional;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+public class SloiApplication {
+	public static void main(String[] args) throws SQLException {
+		try (var connection = DriverManager.getConnection(
+				"jdbc:postgresql://localhost:5432/postgres",
+				"postgres",
+				"postgres");
 
-@SpringBootApplication
-public class SloiApplication implements CommandLineRunner {
-@PersistenceContext
-private EntityManager entityManager;
-
-	public static void main(String[] args) {
-		SpringApplication.run(SloiApplication.class, args);
-	}
-
-	@Override
-	@Transactional
-	public void run(String... args) throws Exception {
-
+			 //var statement = connection.createStatement())
+		) {
+			connection.setAutoCommit(false);
+		}
 	}
 }
+

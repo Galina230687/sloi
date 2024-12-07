@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b22a58-159d-4332-885d-0f8c81db6178" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/sloi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sloi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sloi/src/main/java/ru/netology/sloi/SloiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sloi/src/main/java/ru/netology/sloi/SloiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sloi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sloi/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Galina230687&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Galina230687/sloi.git&quot;,
+    &quot;accountId&quot;: &quot;a7b5ef6e-b5fd-44d3-9d12-fb63ea788ed1&quot;
+  }
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -46,7 +61,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/Desktop/sloi",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm"
@@ -105,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733515130086</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1733515586771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733515586771</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
