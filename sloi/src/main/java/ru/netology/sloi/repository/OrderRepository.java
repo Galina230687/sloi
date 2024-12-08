@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 import java.util.stream.Collectors;
 
 @Repository
-public class orderRepository {
+public class OrderRepository {
 
     private static String read(String shema) {
         try (InputStream is = new ClassPathResource(shema).getInputStream();

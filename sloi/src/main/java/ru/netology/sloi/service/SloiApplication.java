@@ -1,4 +1,4 @@
-package ru.netology.sloi;
+package ru.netology.sloi.service;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -9,9 +9,9 @@ public class SloiApplication {
 				"postgres",
 				"postgres");
 
-			 //var statement = connection.createStatement())
+			 var statement = connection.prepareStatement("select * from orders")
 		) {
-			connection.setAutoCommit(false);
+			//connection.setAutoCommit(false);
 		}
 	}
 }
