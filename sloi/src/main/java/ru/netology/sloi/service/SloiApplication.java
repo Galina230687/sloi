@@ -14,5 +14,9 @@ public class SloiApplication {
 			//connection.setAutoCommit(false);
 		}
 	}
+
+	public void run(String[] args) throws SQLException {
+
+	}
 }
 
